@@ -1,0 +1,34 @@
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 900px;
+
+}
+
+.rsp-buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+.scoreAndSpan {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    background-color: royalblue;
+    color: white;
+    border-style: none;
+    padding: 10px 20px;
+}
+
+h2 {
+    text-align: center;
+}

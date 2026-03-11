@@ -22,13 +22,25 @@
     margin: 20px;
 }
 
+.resetbtn {
+    background-color: red;
+    
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 button {
     background-color: royalblue;
     color: white;
     border-style: none;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 h2 {
     text-align: center;
 }
+

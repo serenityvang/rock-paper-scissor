@@ -32,6 +32,9 @@ function getComputerChoice() {
   paper.textContent = "Paper";
   scissors.textContent = "Scissors";
   reset.textContent = "Reset";
+
+  // styling reset button
+  reset.classList.add("resetbtn");
   
 
 
